@@ -1,0 +1,44 @@
+
+------------------------------------------------------------
+Sender: LSF System <rer@dccxn058>
+Subject: Job 930166: <python -m scene_parsing.query_specific_scene_parser --num_splits 50 --split_number 0> in cluster <dcc> Exited
+
+Job <python -m scene_parsing.query_specific_scene_parser --num_splits 50 --split_number 0> was submitted from host <dccxl004> by user <amritas8> in cluster <dcc> at Wed Oct  2 02:10:42 2019
+Job was executed on host(s) <dccxn058>, in queue <x86_1h>, as user <amritas8> in cluster <dcc> at Wed Oct  2 02:10:43 2019
+</u/amritas8> was used as the home directory.
+</dccstor/cssblr/amrita/NSVQA_Pipeline/pipeline> was used as the working directory.
+Started at Wed Oct  2 02:10:43 2019
+Terminated at Wed Oct  2 02:44:34 2019
+Results reported at Wed Oct  2 02:44:34 2019
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python -m scene_parsing.query_specific_scene_parser --num_splits 50 --split_number 0
+------------------------------------------------------------
+
+TERM_EXTERNAL_SIGNAL: job killed by a signal external to LSF.
+Exited with signal termination: Bus error, and core dumped.
+
+Resource usage summary:
+
+    CPU time :                                   1462.00 sec.
+    Max Memory :                                 102399 MB
+    Average Memory :                             65890.29 MB
+    Total Requested Memory :                     108544.00 MB
+    Delta Memory :                               6145.00 MB
+    Max Swap :                                   1178 MB
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   2031 sec.
+    Turnaround time :                            2032 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <err/e0.txt> for stderr output of this job.
+

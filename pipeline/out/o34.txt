@@ -1,0 +1,207 @@
+sceneparser_dataset_type: gqa
+qa_dataset_type: gqa
+visual_genome_dir: /dccstor/cssblr/amrita/VisualGenome
+vqa_dir: /dccstor/cssblr/amrita/VQA
+gqa_dir: /dccstor/cssblr/amrita/GQA
+coco_dir: /dccstor/cssblr/amrita/coco
+concepts_catalog_dir: /dccstor/cssblr/amrita/Concept_Catalog_VQA
+attribute_catalog_preprocessed_dir: multiclass_unilabel_cce_attribute/preprocessed_data/concepts/
+object_catalog_preprocessed_dir: multiclass_unilabel_cce_synset/preprocessed_data/concepts/
+attribute_catalog_model_dir: multiclass_unilabel_cce_attribute/checkpoints/concepts/
+object_catalog_model_dir: multiclass_unilabel_cce_synset/checkpoints/concepts/
+preprocessed_dump_dir: /dccstor/cssblr/amrita/NSVQA_Pipeline/preprocessed_data/
+mask_rcnn_dir: /dccstor/cssblr/amrita/Mask_RCNN
+glove_clustering_dir: /dccstor/cssblr/amrita/GloVe_Clustering
+word2vec_googlenews: /dccstor/cssblr/ansarigh/DCL/data/clevr/generic/GoogleNews-vectors-negative300.bin
+vg_attr_types_file: attribute
+vg_object_types_file: object
+vg_rel_types_file: relationship
+preprocessed_annotation_file: preprocessed_annotation.pkl
+program_annotation_file: program_annotation.pkl
+coco_year: 2014
+coco_split: train
+gqa_type: balanced
+gqa_split: train
+max_query_concepts: 10
+query_concepts_embed_dim: 100
+gpu_ids: 0
+bbox_detection_type: gold
+object_detection_type: gold
+attribute_detection_type: gold
+vqa_dataset: vg_intersection_coco
+gqa_dataset: gqa
+vg_mapping_in_query: 1
+sort_data_by_image: 1
+input_vocab_json: None
+expand_vocab: 1
+unk_threshold: 1
+max_words_question: 20
+encode_unk: 1
+max_answers: 10
+max_words_answer: 5
+max_types_answer: 2
+output_h5_file: None
+output_vocab_json: None
+split_number: 34
+num_splits: 100
+self.dataset_dir  /dccstor/cssblr/amrita/GQA
+In MapQueryConceptsToVGConcepts: Going to vqa object dataset
+read vocab file from  /dccstor/cssblr/amrita/Concept_Catalog_VQA/multiclass_unilabel_cce_synset/preprocessed_data/concepts/vocab.pkl
+read cluster file from  /dccstor/cssblr/amrita/Concept_Catalog_VQA/multiclass_unilabel_cce_synset/preprocessed_data/concepts/clusters.pkl
+Preprocessed data in  1.430511474609375e-06 secs
+Object vocab size  1704
+Attribute vocab size  618
+In MapQueryConceptsToVGConcepts: Going to vqa relation dataset
+Relation vocab size  311
+got expanded vocab
+got expanded vocab
+finished loading gqa objects, relations, attributes
+Split size  9430  Start:  320620  End:  330050
+processing  0 'th vqa data
+processing  100 'th vqa data
+processing  200 'th vqa data
+processing  300 'th vqa data
+processing  400 'th vqa data
+processing  500 'th vqa data
+processing  600 'th vqa data
+processing  700 'th vqa data
+processing  800 'th vqa data
+processing  900 'th vqa data
+processing  1000 'th vqa data
+processing  1100 'th vqa data
+processing  1200 'th vqa data
+processing  1300 'th vqa data
+processing  1400 'th vqa data
+processing  1500 'th vqa data
+processing  1600 'th vqa data
+processing  1700 'th vqa data
+processing  1800 'th vqa data
+processing  1900 'th vqa data
+processing  2000 'th vqa data
+processing  2100 'th vqa data
+processing  2200 'th vqa data
+processing  2300 'th vqa data
+processing  2400 'th vqa data
+processing  2500 'th vqa data
+processing  2600 'th vqa data
+processing  2700 'th vqa data
+processing  2800 'th vqa data
+processing  2900 'th vqa data
+processing  3000 'th vqa data
+processing  3100 'th vqa data
+processing  3200 'th vqa data
+processing  3300 'th vqa data
+processing  3400 'th vqa data
+processing  3500 'th vqa data
+processing  3600 'th vqa data
+processing  3700 'th vqa data
+processing  3800 'th vqa data
+processing  3900 'th vqa data
+processing  4000 'th vqa data
+processing  4100 'th vqa data
+processing  4200 'th vqa data
+processing  4300 'th vqa data
+processing  4400 'th vqa data
+processing  4500 'th vqa data
+processing  4600 'th vqa data
+processing  4700 'th vqa data
+processing  4800 'th vqa data
+processing  4900 'th vqa data
+processing  5000 'th vqa data
+processing  5100 'th vqa data
+processing  5200 'th vqa data
+processing  5300 'th vqa data
+processing  5400 'th vqa data
+processing  5500 'th vqa data
+processing  5600 'th vqa data
+processing  5700 'th vqa data
+processing  5800 'th vqa data
+processing  5900 'th vqa data
+processing  6000 'th vqa data
+processing  6100 'th vqa data
+processing  6200 'th vqa data
+processing  6300 'th vqa data
+processing  6400 'th vqa data
+processing  6500 'th vqa data
+processing  6600 'th vqa data
+processing  6700 'th vqa data
+processing  6800 'th vqa data
+processing  6900 'th vqa data
+processing  7000 'th vqa data
+processing  7100 'th vqa data
+processing  7200 'th vqa data
+processing  7300 'th vqa data
+processing  7400 'th vqa data
+processing  7500 'th vqa data
+processing  7600 'th vqa data
+processing  7700 'th vqa data
+processing  7800 'th vqa data
+processing  7900 'th vqa data
+processing  8000 'th vqa data
+processing  8100 'th vqa data
+processing  8200 'th vqa data
+processing  8300 'th vqa data
+processing  8400 'th vqa data
+processing  8500 'th vqa data
+processing  8600 'th vqa data
+processing  8700 'th vqa data
+processing  8800 'th vqa data
+processing  8900 'th vqa data
+processing  9000 'th vqa data
+processing  9100 'th vqa data
+processing  9200 'th vqa data
+processing  9300 'th vqa data
+processing  9400 'th vqa data
+added bounding box info for  0 th data instance
+added bounding box info for  1000 th data instance
+added bounding box info for  2000 th data instance
+added bounding box info for  3000 th data instance
+added bounding box info for  4000 th data instance
+added bounding box info for  5000 th data instance
+added bounding box info for  6000 th data instance
+added bounding box info for  7000 th data instance
+added bounding box info for  8000 th data instance
+added bounding box info for  9000 th data instance
+
+------------------------------------------------------------
+Sender: LSF System <rer@dccxc273>
+Subject: Job 1005094: <python -m scene_parsing.query_specific_scene_parser --num_splits 100 --split_number 34> in cluster <dcc> Done
+
+Job <python -m scene_parsing.query_specific_scene_parser --num_splits 100 --split_number 34> was submitted from host <dccxl004> by user <amritas8> in cluster <dcc> at Thu Oct  3 02:36:37 2019
+Job was executed on host(s) <dccxc273>, in queue <x86_1h>, as user <amritas8> in cluster <dcc> at Thu Oct  3 02:36:37 2019
+</u/amritas8> was used as the home directory.
+</dccstor/cssblr/amrita/NSVQA_Pipeline/pipeline> was used as the working directory.
+Started at Thu Oct  3 02:36:37 2019
+Terminated at Thu Oct  3 03:02:28 2019
+Results reported at Thu Oct  3 03:02:28 2019
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python -m scene_parsing.query_specific_scene_parser --num_splits 100 --split_number 34
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1532.67 sec.
+    Max Memory :                                 165320 MB
+    Average Memory :                             85906.47 MB
+    Total Requested Memory :                     217088.00 MB
+    Delta Memory :                               51768.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   1551 sec.
+    Turnaround time :                            1551 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <err/e34.txt> for stderr output of this job.
+

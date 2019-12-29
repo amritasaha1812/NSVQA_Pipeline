@@ -1,0 +1,46 @@
+{
+    "Prototype"            :{
+                                "filter_attribute":{"input":["attribute"],"output":"scene"},
+                                "filter_object":{"input":["object"],"output":"scene"},
+                                "filter_relation":{"input":["relation"],"output":"scene"},
+                                "get_object":{"input":["object"],"output":"object"},
+                                "get_attribute":{"input":["attribute"],"output":"attribute"},
+                                "get_relation":{"input":["relation"],"output":"relation"},
+                                "get":{"input":[],"output":"NONE"},
+                                "exists":{"input":[],"output":"bool"},
+                                "exists_object":{"input":["object"],"output":"bool"},
+                                "exists_attribute":{"input":["attribute"],"output":"bool"},
+                                "exists_relation":{"input":["relation"],"output":"bool"},
+                                "count_object":{"input":["object"],"output":"integer"},
+                                "count_attribute":{"input":["attribute"],"output":"integer"},
+                                "count_relation":{"input":["relation"],"output":"integer"},
+                                "count":{"input":["scene"],"output":"integer"}         
+                            },
+    "OpToId"               :{   
+                                "NONE"                : 0,
+                                "filter_attribute"    : 1,
+                                "filter_object"       : 2,
+                                "filter_relation"     : 3,
+                                "get_object"          : 4,
+                                "get_attribute"       : 5,
+                                "get_relation"        : 6,
+                                "get"                 : 7,
+                                "exists"              : 8, 
+                                "exists_object"       : 9,
+                                "exists_attribute"    : 10,
+                                "exists_relation"     : 11,
+                                "count_object"        : 12,
+                                "count_attribute"     : 13,
+                                "count_relation"      : 14,
+                                "count"               : 15
+                            },
+    "ArgumentTypetoId"     :{
+                                "NONE"                : 0,
+                                "scene"               : 1,
+                                "integer"             : 2,
+                                "bool"                : 3,
+                                "attribute"           : 4,
+                                "object"              : 5,
+                                "relation"            : 6
+                            }
+}

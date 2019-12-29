@@ -1,0 +1,1 @@
+/u/amritas8/.lsbatch/1569996642.930166: line 8: 12934 Bus error               (core dumped) python -m scene_parsing.query_specific_scene_parser --num_splits 50 --split_number 0

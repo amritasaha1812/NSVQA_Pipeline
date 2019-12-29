@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/dccstor/cssblr/amrita/miniconda3/envs/py3.6/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/dccstor/cssblr/amrita/miniconda3/envs/py3.6/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/dccstor/cssblr/amrita/NSVQA_Pipeline/pipeline/scene_parsing/query_specific_scene_parser.py", line 16, in <module>
+    from .map_query_to_concept_vocab import MapQueryConceptsToVGConcepts
+  File "/dccstor/cssblr/amrita/NSVQA_Pipeline/pipeline/scene_parsing/map_query_to_concept_vocab.py", line 9, in <module>
+    from autocorrect import spell
+  File "/dccstor/cssblr/amrita/miniconda3/envs/py3.6/lib/python3.6/site-packages/autocorrect/__init__.py", line 17, in <module>
+    from autocorrect.word import Word, common, exact, known, get_case
+  File "/dccstor/cssblr/amrita/miniconda3/envs/py3.6/lib/python3.6/site-packages/autocorrect/word.py", line 18, in <module>
+    from autocorrect.word_lists import LOWERCASE, MIXED_CASE
+  File "/dccstor/cssblr/amrita/miniconda3/envs/py3.6/lib/python3.6/site-packages/autocorrect/word_lists.py", line 31, in <module>
+    LOWERCASE = words_from_archive('en_US_GB_CA_lower.txt')
+  File "/dccstor/cssblr/amrita/miniconda3/envs/py3.6/lib/python3.6/site-packages/autocorrect/utils.py", line 30, in words_from_archive
+    words = re.findall(RE, f.read().decode(encoding='utf-8'))
+  File "/dccstor/cssblr/amrita/miniconda3/envs/py3.6/lib/python3.6/tarfile.py", line 697, in read
+    b = self.fileobj.read(length)
+  File "/dccstor/cssblr/amrita/miniconda3/envs/py3.6/lib/python3.6/bz2.py", line 182, in read
+    return self._buffer.read(size)
+  File "/dccstor/cssblr/amrita/miniconda3/envs/py3.6/lib/python3.6/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+  File "/dccstor/cssblr/amrita/miniconda3/envs/py3.6/lib/python3.6/_compression.py", line 103, in read
+    data = self._decompressor.decompress(rawblock, size)
+KeyboardInterrupt
