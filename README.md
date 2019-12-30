@@ -17,3 +17,4 @@
 10. Change line 2 of Dynamic-Concept-Learner/program_induction/executors/__init__.py to 'from .vqa.executor import Executor' in order to use vqa specific executor 
 11. Run python -m scripts.vqa.dummy_exec (Run this step to get the executor's output on the existing preprocessed form of the scene-parsed data)
 
+12. Download preprocessed_data.zip from https://drive.google.com/file/d/1Yy4fG-KiPOAVe-rZ9i51_e7eTCnX4Jrn/view?usp=sharing and extract it here
